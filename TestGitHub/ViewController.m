@@ -10,12 +10,12 @@
 
 @implementation ViewController
 - (IBAction)onClicked_btn1:(id)sender {
-    printf("clicked");
+    printf("\nclicked");
 }
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    printf("Loaded");
+    printf("\nLoaded");
     // Do any additional setup after loading the view.
 }
 

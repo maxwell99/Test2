@@ -9,10 +9,13 @@
 #import "ViewController.h"
 
 @implementation ViewController
+- (IBAction)onClicked_btn1:(id)sender {
+    printf("clicked");
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-
+    printf("Loaded");
     // Do any additional setup after loading the view.
 }
 
